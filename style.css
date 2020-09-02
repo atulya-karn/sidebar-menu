@@ -1,0 +1,65 @@
+#menu{
+	background-color: #00a65a;
+	width: 50px;
+	text-align: center;
+	height: 35px;
+	padding-top: 9.5px;
+	border-radius: 34%;
+}
+
+body{
+	height: 5000px;
+}
+#menu:hover{
+	cursor: pointer;
+}
+.sidemenu{
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 52px;
+  left: 0;
+  background-color: #00a65a;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+  display: none;
+}
+
+.sidemenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+.sidemenu h3 {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  cursor: default;
+}
+
+.link:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.container{
+
+	background-color: white;
+	padding: 20px;
+	width: 75%;
+	border-radius: 10px;
+
+}
+
+.container p{
+	padding: 10px;
+	font-family: Harlow Solid;
+}
